@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stand">
+        <div class="head">
+        <h1>In Web design,what does CSS stand for?</h1>
+        </div>
+        <div class="ans1">
+            <button>A</button>
+            <h4>Counter Strike Source</h4>
+        </div>
+        <div class="ans2">
+            <button>B</button>
+            <h4>Corrective Style Sheet</h4>
+        </div>
+        <div class="ans3">
+            <button>C</button>
+            <h4>Computer Style Sheet</h4>
+        </div>
+        <div class="ans4" onclick="green()">
+            <button onclick="green()">D</button>
+            <h4>Cascading Style Sheet</h4>
+        
+        </div>
+        <button class="button">Next 1/5</button>
+
+    </div>
+    <script>
+            var colorchange=document.getElementsByClassName("container");
+            function green(){
+                document.getElementsByClassName("ans4")[0].style.backgroundColor="green";
+            }
+    </script>
+
+        
+    </div>
+</body>
+</html>

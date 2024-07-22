@@ -1,0 +1,39 @@
+.stand{
+    background-color: rgb(233, 196, 233);
+    width: 700px;
+    height: 450px;
+    margin-left: 38%;
+    margin-top: 200px;
+}
+.head{
+    margin: 15px 20px;
+
+}
+.head h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ans1,.ans2,.ans3,.ans4{
+    background-color: white;
+    margin-top: 10px;
+}
+h4{
+    display: inline;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+button{
+    padding: 20px 30px;
+    background-color: rgb(230, 62, 62);
+    color: white;
+    border: 1px solid rgb(77, 76, 76);
+}
+.button{
+    margin-top: 10px;
+    margin-left: 260px;
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    color: black;
+}
